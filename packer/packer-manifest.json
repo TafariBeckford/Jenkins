@@ -1,0 +1,68 @@
+{
+  "builds": [
+    {
+      "name": "jenkins",
+      "builder_type": "amazon-ebs",
+      "build_time": 1681194666,
+      "files": null,
+      "artifact_id": "us-east-1:ami-0d363319a7b132c6d",
+      "packer_run_uuid": "85bc953c-67b1-8130-3614-dc5055565306",
+      "custom_data": null
+    },
+    {
+      "name": "jenkins",
+      "builder_type": "amazon-ebs",
+      "build_time": 1681224364,
+      "files": null,
+      "artifact_id": "us-east-1:ami-0f096d0b56222f09e",
+      "packer_run_uuid": "25d2494d-d4d4-458c-ccd5-b4272920763f",
+      "custom_data": null
+    },
+    {
+      "name": "jenkins",
+      "builder_type": "amazon-ebs",
+      "build_time": 1681227136,
+      "files": null,
+      "artifact_id": "us-east-1:ami-0e866da8837429201",
+      "packer_run_uuid": "24326900-9fa7-07b7-0bd0-60521255cd58",
+      "custom_data": null
+    },
+    {
+      "name": "jenkins",
+      "builder_type": "amazon-ebs",
+      "build_time": 1681227952,
+      "files": null,
+      "artifact_id": "us-east-1:ami-003b821703e514ede",
+      "packer_run_uuid": "5d84dc9e-505a-2922-3ce1-3c572e73ac63",
+      "custom_data": null
+    },
+    {
+      "name": "jenkins",
+      "builder_type": "amazon-ebs",
+      "build_time": 1681229849,
+      "files": null,
+      "artifact_id": "us-east-1:ami-0456cecc8e073e5a2",
+      "packer_run_uuid": "c6748e8a-4310-06de-4e89-c67618132f64",
+      "custom_data": null
+    },
+    {
+      "name": "jenkins",
+      "builder_type": "amazon-ebs",
+      "build_time": 1681230570,
+      "files": null,
+      "artifact_id": "us-east-1:ami-0fa2232c4a95b54b4",
+      "packer_run_uuid": "6df59198-1694-9e8f-c2c8-1f910fee6c4c",
+      "custom_data": null
+    },
+    {
+      "name": "jenkins",
+      "builder_type": "amazon-ebs",
+      "build_time": 1681249495,
+      "files": null,
+      "artifact_id": "us-east-1:ami-0e24690292f857e8d",
+      "packer_run_uuid": "d4f34c29-b662-9c94-1d4a-20d58e5dc313",
+      "custom_data": null
+    }
+  ],
+  "last_run_uuid": "d4f34c29-b662-9c94-1d4a-20d58e5dc313"
+}

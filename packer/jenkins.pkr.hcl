@@ -16,7 +16,7 @@ source "amazon-ebs" "jenkins" {
 
 
   tags = {
-    "Name" = "jenkins-slave"
+    "Name" = "linux-agent"
   }
 }
 
@@ -27,8 +27,9 @@ build {
   provisioner "shell" {
 
     inline = ["sudo yum update –y",
-    "sudo amazon-linux-extras install java-openjdk11 -y",
-    "sudo yum install git -y"]
+    "sudo yum install git -y",
+    "sudo amazon-linux-extras install docker"
+    ]
   }
 
   post-processor "manifest" {
